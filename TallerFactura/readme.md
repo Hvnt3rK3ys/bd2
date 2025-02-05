@@ -1,7 +1,3 @@
-Aquí tienes un ejemplo de cómo podrías estructurar el archivo `readme.md` para documentar tu proyecto. Incluye la descripción del proyecto, los nombres de los integrantes y la imagen `ERM_factura.png`.
-
----
-
 # Proyecto de Base de Datos: Sistema de Facturación
 
 # TODO:
@@ -73,7 +69,3 @@ Si deseas contribuir a este proyecto, puedes abrir un issue o enviar un pull req
 ### Notas Adicionales
 - Asegúrate de que el archivo `ERM_factura.png` esté en la misma carpeta que este `readme.md` para que la imagen se muestre correctamente.
 - Si usas un motor de base de datos diferente a SQLite, ajusta los scripts según sea necesario.
-
----
-
-Con este `readme.md`, tendrás una documentación clara y profesional para tu proyecto. Solo asegúrate de reemplazar los nombres de los integrantes con los nombres reales de tu equipo. 😊
