@@ -1,27 +1,35 @@
 /*SQL DIALECT: SQLITE*/
-SELECT 
-    Cliente.id_cliente,
-    Cliente.nombre AS nombre_cliente,
-    Cliente.direccion,
-    Cliente.telefono,
-    Empleado.id_empleado,
-    Empleado.nombre AS nombre_empleado,
-    Empleado.cargo,
-    Factura.id_factura,
-    Factura.fecha,
-    Factura.subtotal,
-    Factura.impuesto,
-    Factura.total AS total_factura,
-    Producto.id_producto,
-    Producto.codigo,
-    Producto.descripcion,
-    Producto.precio AS precio_unitario_producto,
-    Detalle_Factura.cantidad,
-    Detalle_Factura.precio_unitario,
-    Detalle_Factura.total_producto
-FROM 
-    Factura
-    INNER JOIN Cliente ON Factura.id_cliente = Cliente.id_cliente
-    INNER JOIN Empleado ON Factura.id_empleado = Empleado.id_empleado
-    INNER JOIN Detalle_Factura ON Factura.id_factura = Detalle_Factura.id_factura
-    INNER JOIN Producto ON Detalle_Factura.id_producto = Producto.id_producto;
+SELECT
+    f.FacturaID,
+    f.Fecha,
+    f.RTN,
+    f.TipoFactura,
+    f.SubTotal,
+    f.ISV,
+    f.Total,
+    f.ContraRecibo,
+    f.FechaEntrega,
+    c.Nombre AS Cliente,
+    v.Nombre AS Vendedor,
+    d.DetalleID,
+    a.Descripcion AS Articulo,
+    d.Cantidad,
+    d.PrecioTotalLinea,
+    p.MontoTotal AS MontoPago,
+    p.FechaEmision AS FechaPago,
+    p.FechaVencimiento AS FechaVencimientoPago
+FROM
+    Factura f
+JOIN
+    Cliente c ON f.ClienteID = c.ClienteID
+JOIN
+    Vendedor v ON f.VendedorID = v.VendedorID
+JOIN
+    DetalleFactura d ON f.FacturaID = d.FacturaID
+JOIN
+    Articulo a ON d.ArticuloID = a.ArticuloID
+JOIN
+    Pago p ON f.FacturaID = p.FacturaID
+WHERE
+    f.FacturaID = 'F001';  -- Cambia 'F001' por el ID de la factura que deseas consultar
+

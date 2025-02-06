@@ -1,18 +1,5 @@
-# Proyecto de Base de Datos: Sistema de Facturación
 
-# TODO:
-- Deben refactorizar los 5 scripts para que este en formato 3NF
-- Toca actualizar el diagrama ERM usando mermaid
-```python
-#Vayan al sitio y se logean con github o lo que quieran
-https://www.mermaidchart.com/
-```
-- Para que los LLMs que uds usan entiendan de que mierda hablan le pasan en PDF la documentacion del diagrama ERM
-```python
-# Aqui lo encuentran
-https://github.com/mermaid-js/mermaid/tree/develop/docs/syntax
-```
-- FINALMENTE GUARDAN LOS CAMBIOS EN EL REPOSITORIO DE GITHUB en la rama `talleres` el main esta restrigido para que no hagan idioteces (se emula rama de despliegue real)
+# Proyecto de Base de Datos: Sistema de Facturación
 
 ## Descripción del Proyecto
 Este proyecto implementa un sistema de facturación utilizando una base de datos relacional. El diseño incluye entidades como **Cliente**, **Empleado**, **Producto**, **Factura** y **Detalle_Factura**, y se ha desarrollado en varias fases para garantizar una estructura modular y bien organizada.
@@ -36,6 +23,8 @@ A continuación, se muestra el diagrama Entidad-Relación del sistema:
 
 ![Diagrama ER](ERM_factura.png)
 
+---
+
 ## Integrantes del Equipo
 Este proyecto fue desarrollado por los siguientes integrantes:
 
@@ -44,6 +33,7 @@ Este proyecto fue desarrollado por los siguientes integrantes:
 3. **Julián Moreno: Ingeniero de Sistemas**
 4. **Danna Vega: Ingeniero de Sistemas**
 
+---
 ## Ejecución del Proyecto
 Para ejecutar este proyecto, sigue los pasos a continuación:
 
@@ -57,15 +47,3 @@ Para ejecutar este proyecto, sigue los pasos a continuación:
      2. `s3_relacionesYllaves.sql`: Agrega las relaciones y claves foráneas.
      3. `s4_llenadoEntidades.sql`: Inserta datos de prueba.
      4. `s5_generalQuery.sql`: Ejecuta la consulta general para ver los datos relacionados.
-
-3. **Verificación**:
-   - Verifica que los datos se hayan insertado correctamente y que las consultas funcionen como se espera.
-
-## Contribuciones
-Si deseas contribuir a este proyecto, puedes abrir un issue o enviar un pull request. ¡Toda ayuda es bienvenida!
-
----
-
-### Notas Adicionales
-- Asegúrate de que el archivo `ERM_factura.png` esté en la misma carpeta que este `readme.md` para que la imagen se muestre correctamente.
-- Si usas un motor de base de datos diferente a SQLite, ajusta los scripts según sea necesario.
