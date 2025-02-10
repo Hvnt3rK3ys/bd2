@@ -1,0 +1,33 @@
+/*SQL DIALECT: SQLITE*/
+INSERT INTO Cliente (ClienteID, Nombre)
+VALUES ('C021', 'AUTO FRENOS BOULEVARD');
+INSERT INTO Vendedor (VendedorID, Nombre)
+VALUES ('V021', 'LENIN SALGADO');
+INSERT INTO Articulo (ArticuloID, Descripcion, PrecioUnitario)
+VALUES
+('A021', 'ACEITE DE MOTOR 15-40', 450.00),
+('A022', 'FRENOS DISCOS 6045', 180.00),
+('A023', 'RELAY PARA ISUZU FP-12V', 620.00),
+('A024', 'FILTRO DE AIRE 4G9131', 25.00),
+('A025', 'FILTRO DE ACEITE 15208-65020', 75.00),
+('A026', 'FILTRO DE COMBUSTIBLE 23303-62060', 75.00),
+('A027', 'BULONES CALIDAD 12 UNIDADES', 100.00),
+('A028', 'TAPA DE VALVULA 12130-65020', 18.00),
+('A029', 'FUSES HACHETA MINIATURA 32 AMP', 18.00);
+INSERT INTO Factura (FacturaID, Fecha, RTN, TipoFactura, SubTotal, ISV, Total, ContraRecibo, FechaEntrega, ClienteID, VendedorID)
+VALUES
+('00254', '2007-10-16', '08011995298341', 'CONTADO', 2621.60, 262.16, 2891.68, '00254', '2007-10-16', 'C001', 'V001');
+INSERT INTO DetalleFactura (DetalleID, FacturaID, ArticuloID, Cantidad, PrecioTotalLinea)
+VALUES
+('D021', '00254', 'A001', 3, 1350.00),
+('D022', '00254', 'A002', 2, 360.00),
+('D023', '00254', 'A003', 1, 620.00),
+('D024', '00254', 'A004', 1, 25.00),
+('D025', '00254', 'A005', 1, 75.00),
+('D026', '00254', 'A006', 1, 75.00),
+('D027', '00254', 'A007', 1, 100.00),
+('D028', '00254', 'A008', 2, 36.00),
+('D029', '00254', 'A009', 1, 18.00);
+INSERT INTO Pago (PagoID, FacturaID, MontoTotal, FechaEmision, FechaVencimiento)
+VALUES
+('P021', '00254', 2891.68, '2007-10-16', '2007-11-15');
