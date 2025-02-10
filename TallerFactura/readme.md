@@ -28,11 +28,10 @@ A continuación, se muestra el diagrama Entidad-Relación del sistema:
 ## Integrantes del Equipo
 Este proyecto fue desarrollado por los siguientes integrantes:
 
-1. **Manuel Parra: Matemático**
-2. **Sebastián Vargas: Ingeniero de Sistemas**
-3. **Julián Moreno: Ingeniero de Sistemas**
-4. **Danna Vega: Ingeniero de Sistemas**
-
+1. **🧮Manuel Parra🧮: Matemático**
+2. **💻Sebastián Vargas💻: Ingeniero de Sistemas**
+3. **💻Julián Moreno💻: Ingeniero de Sistemas**
+4. **💻Danna Vega💻: Ingeniera de Sistemas**
 ---
 ## Ejecución del Proyecto
 Para ejecutar este proyecto, sigue los pasos a continuación:
