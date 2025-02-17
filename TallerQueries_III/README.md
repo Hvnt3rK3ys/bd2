@@ -1,4 +1,4 @@
-# Taller de Repaso: Queries en Oracle Human Resources
+# Taller de Repaso 2: Queries en Oracle Human Resources
 
 ## Diagrama Entidad-Relación
 
@@ -8,20 +8,46 @@ A continuación, se muestra el diagrama Entidad-Relación del sistema:
 
 ## ❓❓ Preguntas y Respuestas 💡💡
 
-1. Seleccione todos los datos de la tabla `EMPLOYEES`.
-2. Seleccione solo el nombre, apellido y salario de los empleados.
-3. Seleccione los empleados que tienen un salario mayor a 5000.
-4. Seleccione los empleados que trabajan en el departamento 50 o 80.
-5. Seleccione los empleados cuyo apellido empieza con la letra A.
-6. Seleccione los empleados que tienen un cargo de manager o director.
-7. Seleccione los empleados que tienen una fecha de contratación entre el 1 de enero de 2000 y el 31 de diciembre de 2010.
-8. Seleccione los empleados que tienen un apellido que contiene la letra E.
-9. Seleccione los empleados que tienen un nombre que termina en A o en O.
-10. Seleccione los empleados que no trabajan en el departamento 10 ni en el 20.
-11. Seleccione los empleados que tienen un salario entre 3000 y 6000, ambos inclusive.
-12. Obtenga el nombre y el número de teléfono de todos los empleados que tienen un número de teléfono que comienza con el prefijo 555.
-13. Obtenga el nombre y el correo electrónico de todos los empleados que tienen una dirección de correo electrónico que termina con el dominio `.com`.
-14. Obtenga todos los nombres de los empleados que su nombre contiene la palabra 'Smith'.
+1. Mostrar el salario promedio de todos los empleados en cada departamento, ordenado en orden
+descendente por salario promedio.
+2. Mostrar el número de empleados que tienen un salario mayor a 5000.
+3. Mostrar el salario máximo de los empleados que tienen el ID_JOB de IT_PROG.
+4. Mostrar el salario mínimo de los empleados que tienen el ID_JOB de PU_CLERK.
+5. Mostrar el salario promedio de los empleados que tienen el ID_JOB de ST_CLERK.
+6. Mostrar el salario total de los empleados que tienen el ID_JOB de SA_REP.
+7. Mostrar el número de empleados que tienen un salario mayor al salario promedio de todos los
+empleados.
+8. Mostrar el salario máximo de los empleados que tienen el ID_JOB de SA_REP y trabajan en el
+departamento 20.
+9. Mostrar el salario mínimo de los empleados que tienen el ID_JOB de PU_CLERK y trabajan en el
+departamento 30.
+10. Mostrar el salario promedio de los empleados que tienen el ID_JOB de IT_PROG y trabajan en el
+departamento 10.
+11. Mostrar el salario total de los empleados que tienen el ID_JOB de SA_REP y trabajan en el departamento
+30.
+12. Mostrar el número de empleados que tienen un salario mayor al salario promedio de los empleados que
+trabajan en el departamento 20.
+13. Mostrar el salario máximo de los empleados que tienen el ID_JOB de IT_PROG y trabajan en el
+departamento 10.
+14. Mostrar el salario mínimo de los empleados que tienen el ID_JOB de SA_REP y trabajan en el
+departamento 20.
+15. Mostrar la suma del salario máximo y el salario total de todos los empleados.
+16. Mostrar la diferencia entre el salario mínimo y el salario promedio de todos los empleados.
+17. Mostrar el producto del salario total y el número de empleados en cada departamento.
+18. Mostrar el cociente entre el salario máximo y el salario promedio de todos los empleados.
+19. Mostrar la suma del salario total y el número de empleados que tienen un salario mayor a 5000.
+20. Mostrar la diferencia entre el salario máximo y el salario mínimo de los empleados.
+21. Mostrar el ID del departamento y el número de empleados en cada departamento donde el número de
+empleados es mayor a 5.
+22. Mostrar el título del puesto y el salario promedio de los empleados que tienen un salario promedio mayor
+a 5000.
+23. Mostrar el ID del departamento y el salario total de los empleados en cada departamento donde el salario
+total es mayor a 10000.
+24. Mostrar el título del puesto y el salario máximo de los empleados que tienen un título de puesto que
+comienza con 'P'.
+25. Mostrar el ID del departamento y el salario mínimo de los empleados en cada departamento donde el
+salario mínimo es menor a 2000.
+26. Mostrar el título del puesto y el número de empleados que tienen un título de puesto que termina con 'r'.
 
 ## Integrantes del Equipo
 
