@@ -37,8 +37,10 @@ Desarrollado como parte del taller de SQL para la práctica de consultas avanzad
 
 
 
-
 🧮Manuel Parra🧮: Matemático
+
 💻Sebastián Vargas💻: Ingeniero de Sistemas
+
 💻Julián Moreno💻: Ingeniero de Sistemas
+
 💻Danna Vega💻: Ingeniera de Sistemas
