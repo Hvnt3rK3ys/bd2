@@ -61,6 +61,9 @@ README.md → Explicación del taller y la estructura de los ejercicios.
 Este proyecto fue desarrollado por los siguientes integrantes:
 
 🧮 Manuel Parra 🧮: Matemático
+
 💻 Sebastián Vargas 💻: Ingeniero de Sistemas
+
 💻 Julián Moreno 💻: Ingeniero de Sistemas
+
 💻 Danna Vega 💻: Ingeniera de Sistemas
